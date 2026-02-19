@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "DW01A")(type "KiCad")(uri "${KIPRJMOD}/../ext_kicad_models/DW01A/DW01A.kicad_sym")(options "")(descr ""))
+  (lib (name "SI1016X_T1_GE3")(type "KiCad")(uri "${KIPRJMOD}/../ext_kicad_models/SI1016X_T1_GE3/KiCADv6/2026-02-09_09-02-43.kicad_sym")(options "")(descr ""))
+  (lib (name "FS8205A")(type "KiCad")(uri "${KIPRJMOD}/../ext_kicad_models/FS8205A/FS8205A.kicad_sym")(options "")(descr ""))
+)
