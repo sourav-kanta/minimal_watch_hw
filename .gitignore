@@ -1,0 +1,15 @@
+# KiCad temporary and backup files
+*.bak
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*~
+_autosave-*
+*.tmp
+fp-info-cache
+*.kicad_prl
+
+# For localized libraries
+# We WANT to keep .pretty and .kicad_sym, 
+# but we don't want the search caches
+libraries/fp-info-cache
+v1/manufacturing/*.zip
