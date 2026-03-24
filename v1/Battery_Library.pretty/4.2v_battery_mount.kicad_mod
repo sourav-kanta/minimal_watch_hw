@@ -1,0 +1,127 @@
+(footprint "4.2v_battery_mount"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.508 -3.556 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "c50146b2-2cdc-4c69-896a-cd2d1ef8075d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "4.2v_battery_mount"
+		(at 0 5.08 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "df73cb03-2a2e-4c37-8058-10f343e28481")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "541681bd-1b30-44b6-9e49-01c74a3edbb6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "64c5469d-7c00-495b-a20b-9e36f78e45c1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -4.572 -1.905)
+		(end 4.064 1.905)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "13f84243-68c9-49fc-971f-35e822d6a0a4")
+	)
+	(fp_text user "B-"
+		(at 4.572 -1.016 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "116d4534-dc88-412f-a39d-264ad9269df4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "B+"
+		(at -7.112 -1.016 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "b1bfaa96-6835-4ccd-aed6-28045a0e6d22")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 3.556 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "05fa8c57-95d6-45ef-9ec1-9367a363c216")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole oval
+		(at -2.54 0)
+		(size 2.5 3)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1)
+		(zone_connect 1)
+		(uuid "51a48082-5be1-45a3-aade-a189b07ba363")
+	)
+	(pad "2" thru_hole oval
+		(at 2.032 0)
+		(size 2.5 3)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1)
+		(zone_connect 1)
+		(uuid "d6f70d00-3769-4122-bffa-2ce72446f0ff")
+	)
+	(embedded_fonts no)
+)
