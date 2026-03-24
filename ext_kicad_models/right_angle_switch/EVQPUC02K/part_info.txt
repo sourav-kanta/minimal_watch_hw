@@ -1,0 +1,9 @@
+Manufacturer=Panasonic
+PartNumber=EVQPUC02K
+PartCategory=Switch
+PackageCategory=Other
+PinCount=4
+Version=1.1
+Released=2018-11-22 16:25:03
+Downloaded=2025-07-17 14:29:39
+3D=Y
